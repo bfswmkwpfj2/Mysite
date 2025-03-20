@@ -1,67 +1,52 @@
-/* Основні стилі */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f40009; /* Червоний колір Coca-Cola */
-    color: white;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coca-Cola | Офіційний сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff0000;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        img {
+            width: 300px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
 
-/* Шапка сайту */
-header {
-    background-color: #d60000;
-    padding: 20px;
-    text-align: center;
-}
+<header>
+    <h1>Ласкаво просимо до Coca-Cola!</h1>
+</header>
 
-header img {
-    width: 150px; /* Логотип Coca-Cola */
-}
+<div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Coca-Cola_logo.svg" alt="Логотип Coca-Cola">
+    <p>Скуштуйте улюблений смак Coca-Cola!</p>
+    <p>Дізнайтеся більше про нашу історію та продукцію.</p>
+    <a href="https://www.coca-cola.com/" target="_blank">Офіційний сайт</a>
+</div>
 
-/* Навігація */
-nav {
-    text-align: center;
-    padding: 10px;
-}
+<footer>
+    <p>&copy; 2025 Coca-Cola. Всі права захищені.</p>
+</footer>
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Основний контент */
-main {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-.button {
-    background-color: white;
-    color: #d60000;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: #ffcccc;
-}
-
-/* Футер */
-footer {
-    background-color: #b30000;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
-}
+</body>
+</html>
